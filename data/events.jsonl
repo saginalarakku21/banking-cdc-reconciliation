@@ -1,0 +1,5 @@
+{"partition":"p0","offset":11,"account":"A","version":2,"op":"upsert","balance_cents":1800}
+{"partition":"p0","offset":9,"account":"A","version":1,"op":"upsert","balance_cents":1000}
+{"partition":"p1","offset":1,"account":"B","version":1,"op":"upsert","balance_cents":530}
+{"partition":"p0","offset":12,"account":"B","version":2,"op":"delete"}
+{"partition":"p1","offset":2,"account":"C","version":1,"op":"upsert","balance_cents":"bad"}
